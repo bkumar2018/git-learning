@@ -1,6 +1,7 @@
 Testing for changes
 New lines
 
+My changes
 
 
 git --version
