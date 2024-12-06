@@ -1,0 +1,51 @@
+VERSION CONTROL
+Version control is a way to track and manage changes to software code. It facilitates a smooth and easy path to software development. You can use the terms version control and source control interchangeably. 
+A version control system is a software tool that allows software teams to manage changes to source code over time. 
+Track all code changes in a dedicated database. As the development environment has grown over time, version control systems help software teams work faster and better.
+
+Version control can be a single source and repository for product knowledge, history, and resolutions. 
+Version control acts as a safety net that protects your source code from irreparable damage, giving your development team the freedom to experiment without being afraid of 
+breaking code or causing conflicts 
+
+Code reviews enable software development teams to review previous versions to understand how the application has evolved.
+
+  VERSION CONTROL SYSTEM:
+  A version control system (VCS) is a system that tracks changes to a file or set of files over time. 
+  The most common type of version control system is a centralized version control system that uses a server to save all file versions. 
+  Software developers can check out the files on the server, make changes, and check the files back in. 
+  The server then saves the most recent version of the file.
+
+Benifits:
+  Collaboration
+  Backups
+  Tracebility
+
+GIT
+  Git has a workflow that can be summarized as follows:
+
+Create a Git repository for your project.
+Clone the repository to your local development machine.
+Write code in different files in your local version of the repository and then save the changes locally.
+Push the changes to the remote repository.
+Pull the changes from the remote repository to the local one. This helps to align your code with the remote repository if other developers have made modifications.
+Merge the changes with your local repository.
+
+
+There are some important concepts in Git that you should know before we cover using Git in DevOps.
+
+A branch is a separate version of your code repository. This represents a separated line of development. To modify the codebase, you should create a branch and work from there in isolation until you are ready to merge your changes.
+A snapshot records what all your files look like at a given point in time. This is a way to track your code history.
+A repository is a collection of all the different versions of a project and their history.
+A commit is a way to create a snapshot. It records the changes in the branch.
+Cloning is the act of downloading the contents of a repository from a remote server.
+Pulling is the process of downloading changes that don't exist on your machine from a remote repository.
+Pushing is the process of adding your local changes to a remote repository.
+
+
+What Is a Git Repository?
+A Git repository is your project's .git/ directory. It is the same data structure used by version control systems to store metadata about a set of files and folders. 
+  This includes a collection of files and a history of changes to those files. This means that if you delete the .git/ directory, the project history is also deleted.
+    The repository contains all the data related to the project. Each project has its unique repository.
+
+
+    
